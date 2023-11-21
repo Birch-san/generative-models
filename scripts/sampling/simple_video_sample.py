@@ -189,8 +189,8 @@ def sample(
                     (samples.shape[-1], samples.shape[-2]),
                 )
 
-                samples = embed_watermark(samples)
-                samples = filter(samples)
+                # samples = embed_watermark(samples)
+                # samples = filter(samples)
                 vid = (
                     (rearrange(samples, "t c h w -> t h w c") * 255)
                     .cpu()
