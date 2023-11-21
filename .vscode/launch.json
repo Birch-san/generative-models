@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "Python: SD Vid",
+      "type": "python",
+      "request": "launch",
+      "module": "scripts.sampling.simple_video_sample",
+      "justMyCode": false,
+      "args": [
+        "--input_path", "in/ueno0.png",
+        "--version", "svd",
+      ]
+    }
+  ]
+}

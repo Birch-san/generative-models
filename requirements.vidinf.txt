@@ -1,0 +1,17 @@
+pytorch-lightning
+torch
+torchvision
+opencv-python
+numpy
+einops
+fire
+omegaconf
+Pillow
+clip-anytorch
+packaging
+kornia
+transformers
+open_clip_torch
+invisible-watermark
+scipy
+xformers
